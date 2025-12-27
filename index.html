@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Career – Test interactiv pentru elevi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart Career</h1>
+    <p>Test interactiv pentru orientare în carieră</p>
+</header>
+
+<nav>
+    <a href="#home">Acasă</a>
+    <a href="#test">Test</a>
+    <a href="#result">Rezultat</a>
+    <a href="#about">Despre</a>
+</nav>
+
+<section id="home" class="card">
+    <h2>Bine ai venit!</h2>
+    <p>
+        Smart Career este o aplicație web care ajută elevii să își descopere
+        domeniul profesional potrivit, pe baza intereselor personale.
+    </p>
+</section>
+
+<section id="test" class="card">
+    <h2>Test de orientare</h2>
+
+   <form id="careerTest">
+
+    <p>1. Îți place să lucrezi cu calculatoare?</p>
+    <select id="q1">
+        <option value="">Alege</option>
+        <option value="2">Da</option>
+        <option value="1">Parțial</option>
+        <option value="0">Nu</option>
+    </select>
+
+    <p>2. Îți place să ajuți oamenii?</p>
+    <select id="q2">
+        <option value="">Alege</option>
+        <option value="2">Da</option>
+        <option value="1">Parțial</option>
+        <option value="0">Nu</option>
+    </select>
+
+    <p>3. Îți place să fii creativ?</p>
+    <select id="q3">
+        <option value="">Alege</option>
+        <option value="2">Da</option>
+        <option value="1">Parțial</option>
+        <option value="0">Nu</option>
+    </select>
+
+    <p>4. Îți place matematica?</p>
+    <select id="q4">
+        <option value="">Alege</option>
+        <option value="2">Da</option>
+        <option value="1">Parțial</option>
+        <option value="0">Nu</option>
+    </select>
+
+    <p>5. Îți place să lucrezi în echipă?</p>
+    <select id="q5">
+        <option value="">Alege</option>
+        <option value="2">Da</option>
+        <option value="1">Parțial</option>
+        <option value="0">Nu</option>
+    </select>
+
+    <p>6. Îți place să organizezi lucruri?</p>
+    <select id="q6">
+        <option value="">Alege</option>
+        <option value="2">Da</option>
+        <option value="1">Parțial</option>
+        <option value="0">Nu</option>
+    </select>
+
+    <p>7. Îți place să comunici cu oamenii?</p>
+    <select id="q7">
+        <option value="">Alege</option>
+        <option value="2">Da</option>
+        <option value="1">Parțial</option>
+        <option value="0">Nu</option>
+    </select>
+
+    <p>8. Îți place să rezolvi probleme?</p>
+    <select id="q8">
+        <option value="">Alege</option>
+        <option value="2">Da</option>
+        <option value="1">Parțial</option>
+        <option value="0">Nu</option>
+    </select>
+
+    <br><br>
+    <button type="button" onclick="calculateResult()">Vezi rezultatul</button>
+</form>
+</section>
+
+<section id="result" class="card">
+    <h2>Rezultatul tău</h2>
+    <p id="output">Completează testul pentru a vedea recomandarea.</p>
+</section>
+
+<section id="about" class="card">
+    <h2>Despre proiect</h2>
+    <p>
+        Acest website a fost realizat pentru atestatul la informatică și
+        demonstrează utilizarea conceptelor de bază precum variabile,
+        condiții și interacțiunea cu utilizatorul.
+    </p>
+</section>
+
+<script src="scripts.js"></script>
+</body>
+</html>
